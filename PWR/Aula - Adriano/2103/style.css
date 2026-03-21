@@ -1,0 +1,27 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: #312997;
+    justify-self: center;
+}
+/* Justify-self é utilizado para alinhar um item individual horizontalmente dentro do seu contêiner.   */
+
+.div2{
+    width: 180px;
+    height: 180px;
+    background-color: rgb(214, 118, 39);
+
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    top: 70%;
+
+
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(42, 88, 33);
+    justify-self: center;
+}
