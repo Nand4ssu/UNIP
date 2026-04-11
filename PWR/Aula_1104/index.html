@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1104</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Amanda Silva </h1>
+        <nav>
+            <a href="#formulario"> ir ao formulário </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2> Obrigada pelo interesse! </h2>
+            <p> Preencha o formulário abaixo para solicitar o agendamento de 
+                uma entrevista</p>
+        </section>
+
+        <section id="formulario">
+            <h2> Agendar Entrevista </h2>
+            <article>
+                <form action="mailto:maaay.amanda@gmail.com" method="post" enctype="text/plain">
+                    <label for="recrutador">Nome do recrutador</label>
+                    <input type="text" name="Nome do recrutador" id="recrutador" required>
+                    <label for="empresa">Empresa</label>
+                    <input type="text" id="empresa" name="Empresa" required>
+                    <label for="email"> E-mail para retorno </label>
+                    <input type="email" id="email" name="E-mail" required>
+                    <label for="data">Data sugerida</label>
+                    <input type="date" name="Data sugerida" id="data" required>
+                    <label for="hora">Horário sugerido </label>
+                    <input type="time" name="Horário sugerido" id="hora" required>
+                    <label for="mensagem"> Mensagem </label>
+                    <textarea name="Mensagem" id="mensagem" rows="5" placeholder="Ex: Gostaríamos de agendar uma entrevista 
+                    para..." required></textarea>
+                    <button type="submit"> Enviar solicitação </button>
+                             
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p> &copy; 2026  Amanda Silva. Todos os direitos reservados. </p>
+    </footer>
+</body>
+</html>
