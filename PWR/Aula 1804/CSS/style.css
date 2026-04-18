@@ -1,0 +1,47 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.75rem 1rem;
+    border-radius: 999px;
+    background: #234374;
+    color: white;
+}
+
+nav a:hoover {
+    background: #3a619b;
+}
+
+h2::before {
+    content: "★";
+    color: #6b87b3;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+    display: grid;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.grupo {
+    font-family: 'Poppins', Arial, sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
